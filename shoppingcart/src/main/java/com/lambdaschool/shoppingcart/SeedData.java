@@ -17,7 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 /**
  * SeedData puts both known and random data into the database. It implements CommandLineRunner.
  * <p>
- * CoomandLineRunner: Spring Boot automatically runs the run method once and only once
+ * CommandLineRunner: Spring Boot automatically runs the run method once and only once
  * after the application context has been loaded.
  */
 @Transactional
